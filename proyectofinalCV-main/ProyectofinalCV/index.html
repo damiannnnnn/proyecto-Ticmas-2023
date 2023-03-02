@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="./stylesCV.css">
+    <link rel="icon" type="image/x-icon" href="./imagenesCV/favicon.ico">
+    <link rel="stylesheet" href="./Fuentes/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Carlos Esteban</title>
+</head>
+<body>
+    <header>
+        <h1>Carlos Esteban</h1>
+    </header>
+      
+    <h2 id="Desarrolladora-web">Estudiante de desarrollo Web</h2>
+
+    <p id="barracolor1"></p>
+ 
+    <div class="Datos">
+
+        <img src="./imagenesCV/foto.png" alt="Imagen de CV" id="imagenCv">
+
+    <h3><i class="fa-solid fa-circle-user"></i> Datos Personales</h3>
+    <ul>
+    <h4>
+        <li>Fecha de Nacimiento: 21-14-1992</li>
+        <li>Nacionalidad: Argentina</li>
+        <li>Residencia: San Luis, Argentina</li>
+        <li>Idioma: Ingles intermedio</li>
+    </h4>
+    </ul>
+    
+    
+    <div class="Hard-Skills">
+
+       
+
+    
+        </div>
+        
+  
+
+   
+    
+    
+
+    <h3><i class="fa-solid fa-briefcase"></i> Experiencia</h3>
+    <ol>
+        <li>
+            <h3>Desarrollador de video Juegos</h3>
+            <h4>San Luis. 2023 </h4>
+            <ul>
+                <h4>
+                <li>Manejo de programas de diseño 3d blender,Maya,zbrush,subtance painter</li>
+                <li>Manejo del Motor grafico Unity 5</li>
+                 </h4>
+            </ul>
+        </li>
+    </ol>
+    <p id="barracolor3"></p>
+    <ol>
+        
+        <li>
+            <h3>Trabajos comerciales  </h3>
+            <h4>Bs As. 2019 / 2022</h4>
+            <ul>
+                <h4>
+                <li>Asesoramiento Comercial en cafeteria 847 </li>
+                <li>venta al publico  en Cotillon Alberto  </li>
+                <li>Ventas al publico en cafeteria 847</li>
+                <li>Ayudante de cocina y bachero en cafeteria 847</li>
+                <h4>
+            </ul>
+          </ol>
+        <p id="barracolor3"></p>
+          <h3><i class="fa-solid fa-graduation-cap"></i> Educación</h3> 
+          <ul>
+          <h4>
+              <li>Ticmas. Introduccion Desarrollo Front End. 2022</li>
+              <li>San Luis. escuela comercio nº90</li>
+              <li>UNSL. Lic. computacion 2015</li>
+          </h4>
+          </ul>
+          
+          <p id="barracolor3"></p>
+          <h3><i class="fa-solid fa-certificate"></i> Portfolio de desarrollo de videojuegos </h3>
+    <ul>
+        <li>
+            <button id="Contactar" onclick="ventanaSecundaria()">pagina de instagram</button>
+            <p id="telefono"></p>
+            <script>
+                function ventanaSecundaria (){ 
+                window.open("https://www.instagram.com/digames4/","ventana1","width=1000,height=1000,scrollbars=SI") 
+                } 
+
+          
+            </script>
+          
+        </li>
+      
+    </ul>
+
+   
+</div>
+
+</body>
+<footer>
+    <p id="barracolor2"></p>
+  
+    <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "077-5798-1470 // EstebanCarlos@hotmail.com";
+         }
+    </script>
+
+</footer>
+
+</html>
